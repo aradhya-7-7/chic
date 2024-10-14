@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffb6c1; /* Pastel pink color */
+}
+
+.mainHeading {
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Cute font */
+  color: #ff69b4; /* Barbie pink color */
+  font-size: 70px; /* Adjust size as needed */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add some padding */
+  text-shadow: 2px 2px 0 #ffffff, -2px -2px 0 #ffffff, 2px -2px 0 #ffffff,
+    -2px 2px 0 #ffffff; /* Dashed outline effect */
+}
+
+.cake {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 15px;
+   font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun and playful font */
+   position: relative;
+  z-index: 1;
+ }
+ 
+ 
+
+ .cake img {
+   width: 350px;
+   height: auto;
+   border-radius: 15px;
+   margin-bottom: 15px;/* Smooth hover effect */
+ }
+ 
+ #image {
+   transition: opacity 0.5s ease-in-out;
+ }
+ 
+ 
+ .cake button {
+   background-color: #ff69b4; /* Hot pink button */
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+   box-shadow: 0 4px 6px rgba(255, 182, 193, 0.5);
+ }
+ 
+ .cake button:hover {
+   background-color: #ff1493; /* Darker pink on hover */
+   transform: translateY(-3px); /* Button lifts slightly */
+ }
+ 
+ .cake button:active {
+   transform: translateY(1px); /* Button presses slightly */
+ }
+ 
+ #startConfetti.transparent {
+  color: transparent; /* Make text transparent */
+}
+
+
+ .text1 {
+  background-color: #ffe6f2;/* Light pink border */
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 1300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Light shadow for a soft effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  text-align: center;
+}
+
+.text1 h2 {
+  color: #ff69b4; /* Hot pink text color */
+  font-size: 1.2rem;
+  line-height: 1.;
+}
+
+.text1 h2 span {
+  color: #ff85c2; /* Lighter pink for extra phrases */
+  font-weight: bold;
+}
+
+.book-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+  background-color: #ffe6f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.book-container img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.book-container img:hover {
+  transform: scale(1.05);
+}
+
+.text2 {
+  background-color: #ffe6f2;/* Light pink border */
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 1300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Light shadow for a soft effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  text-align: center;
+}
+
+.text2 h2 {
+  color: #ff69b4; /* Hot pink text color */
+  font-size: 1.6rem;
+  line-height: 1.;
+}
+
+.text2 h2 span {
+  color: #ff85c2; /* Lighter pink for extra phrases */
+  font-weight: bold;
+}
+
+.series-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+  background-color: #ffe6f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.series-container img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.series-container img:hover {
+  transform: scale(1.05);
+}
+
+.text3 {
+  background-color: #ffe6f2;/* Light pink border */
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 1300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Light shadow for a soft effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  text-align: center;
+}
+
+.text3 h2 {
+  color: #ff69b4; /* Hot pink text color */
+  font-size: 1.6rem;
+  line-height: 1.;
+}
+
+.text3 h2 span {
+  color: #ff85c2; /* Lighter pink for extra phrases */
+  font-weight: bold;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+  background-color: #ffe6f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.movie-container img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.movie-container img:hover {
+  transform: scale(1.05);
+}
+
+.text4 {
+  background-color: #ffe6f2;/* Light pink border */
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 1300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Light shadow for a soft effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  text-align: center;
+}
+
+.text4 h2 {
+  color: #ff69b4; /* Hot pink text color */
+  font-size: 1.6rem;
+  line-height: 1.;
+}
+
+.text4 h2 span {
+  color: #ff85c2; /* Lighter pink for extra phrases */
+  font-weight: bold;
+}
+
+.photos {
+  align-items: center;
+  
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 20px;
+  padding: 20px;
+  max-width: 90%;
+  background-color: #fff3f5;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  background-color: #f8bbd0; /* Soft pink */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container:hover {
+  background-color: #f48fb1;
+}
+
+.text4 {
+  background-color: #ffe6f2;/* Light pink border */
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 1300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Light shadow for a soft effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  text-align: center;
+}
+
+.text4 h2 {
+  color: #ff69b4; /* Hot pink text color */
+  font-size: 1.6rem;
+  line-height: 1.;
+}
+
+.text4 h2 span {
+  color: #ff85c2; /* Lighter pink for extra phrases */
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #ffbed3;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #d81b60;
+  font-size: 1em;
+  border-top: 3px solid #ff80ab;
+}
+
+footer p:first-child {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #ad1457;
+  margin-bottom: 10px;
+  animation: glow 2s infinite alternate;
+}
+
+footer p:last-child {
+  margin: 0;
+}
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row on mobile */
+    gap: 10px; /* Reduce the gap between items */
+    padding: 10px; /* Reduce the padding */
+  }
+}
